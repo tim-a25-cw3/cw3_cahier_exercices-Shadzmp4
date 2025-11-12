@@ -1,0 +1,23 @@
+.button {
+    letter-spacing: 1px;
+    color: black;
+    text-transform: uppercase;
+    font-size: var(--font-size-small);
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: var(--color-primary);
+    padding: 10px 16px;
+
+    &:hover {
+        color: var(--color-white);
+        text-decoration: none;
+
+        svg {
+            transform: translateX(3px);
+        }
+    }
+
+    svg {
+        transition: transform 0.125s ease-out;
+    }
+}

@@ -1,0 +1,12 @@
+.footer {
+    .wrapper {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+    .medias {
+        display: flex;
+        gap: 3px;
+        justify-content: center;
+    }
+}
